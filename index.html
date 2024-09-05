@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Narcial</title>
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+    <div class="general-box">
+        <div class="calc-box">
+            <div class="numbers-box">
+                <input type="text" id="first-nb" class="number" placeholder="...">
+                <input type="text" id="second-nb" class="number" placeholder="...">
+            </div>
+            <div class="operations">
+                <button class="bt" onclick="add()">Somar</button>
+                <button class="bt" onclick="sub()">Subtrair</button>
+                <button class="bt" onclick="mult()">Multiplicar</button>
+                <button class="bt" onclick="div()">Dividir</button>
+                <button id="result" class="bt">Resultado</button>
+            </div>
+        </div>
+    </div>
+    <script src="./calc.js"></script>
+    
+</body>
+</html>
